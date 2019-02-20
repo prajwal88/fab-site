@@ -1,12 +1,13 @@
+<!-- refer below code for angular-1 -->
+
 <div class="sb-modal">
-    <div class="ui large modal" style="display: block !important;    position: unset; box-shadow: 1px 3px 3px 0 rgba(0,0,0,.2), 1px 3px 15px 2px rgba(0,0,0,.2);">
+    <div class="ui large modal">
         <div class="header sb-modal-header">
-            Profile Picture
+            Modal Heading
         </div>
         <div class="scrolling image content sb-modal-content">
             <div class="description">
-                <div class="ui header">Modal Header</div>
-                <p>This is large modal</p>
+                <p>Modal Content</p>
             </div>
         </div>
         <div class="actions sb-modal-actions">
@@ -15,3 +16,25 @@
         </div>
     </div>
 </div>
+
+<!-- refer commented code for angular-5 and above -->
+
+
+<!-- 
+        <sui-modal [mustScroll]="true" [isClosable]="true" [transitionDuration]="0" [size]="'large'" class="sb-modal" appBodyScroll (dismissed)="redirect()" #modal>
+            <div class="sb-modal-header">
+                Modal Heading
+            </div>
+            <div class="sb-modal-content text-center">
+                Modal Content
+            </div>
+            <div class="sb-modal-actions">
+                <button class="sb-btn sb-btn-normal sb-btn-primary">
+                    Yes
+                </button>
+                <button class="sb-btn sb-btn-normal sb-btn-outline-primary">
+                    No
+                </button>
+            </div>
+        </sui-modal>
+         -->

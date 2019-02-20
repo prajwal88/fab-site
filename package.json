@@ -75,7 +75,7 @@
     "merge-stream": "^1.0.1",
     "ng2-semantic-ui": "^0.9.7",
     "semantic-ui-css": "^2.4.1",
-    "sunbird-ui-components": "^1.0.5",
+    "sunbird-ui-components": "^1.0.6",
     "webpack-entry-plus": "^1.0.15"
   },
   "optionalDependencies": {}
